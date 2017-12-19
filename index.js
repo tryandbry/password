@@ -1,3 +1,5 @@
+const num = process.env.NUM || 20;
+
 const randomChar = () => {
   //UTF-8 printable char range: 33 - 126
   let num = Math.round(Math.random() * 93 + 33);
@@ -23,4 +25,4 @@ const generatePassword = (n) => {
   return pw;
 }
 
-console.log('password: ',generatePassword(32));
+console.log('password: ',generatePassword(num));
