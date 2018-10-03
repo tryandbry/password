@@ -1,4 +1,4 @@
-const num = process.env.NUM || 20;
+const num = process.env.NUM || 32;
 
 const randomChar = () => {
   //UTF-8 printable char range: 33 - 126
